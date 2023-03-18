@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <link rel="stylesheet" href="fontawsome/css/all.css"/>
+            <meta charset="utf-8"/>
+            <meta http-equiv="refresh" content="1000000"/>
+            <meta name="viewport" content="width = device-width,initial-scale=1.0"/>
+            <title>Hey! I'm Abdillah</title>
+            <style>
+                *{
+                    box-sizing: border-box;text-decoration: none;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                }
+                .orange_background{
+                  background-color: rgb(0,0,100);
+                  color: rgb(220,220,220)
+                }
+                body{
+                    background-color: rgb(0,0,100);color: rgb(220,220,220);
+                    position: relative;overflow-x:hidden;width: 100%;
+                }
+                #introduction{
+                    padding: 0% 3% 3% 10%;font-size: 1.5em;width: 80%;
+                }
+                #introduction h4{
+                    font-size: 1.7em;line-height: 1.7em;letter-spacing: 0.2em;
+                    width: 90%;
+                }
+                #introduction p{
+                    line-height: 1.9em;width: 80%;
+                }
+                #introduction a{
+                    margin:0.6em 1em 0em 0em;font-size: 1.5em;color: royalblue;
+                    display: inline-block;
+                }
+                #introduction a i{
+                    color: rgb(220,220,220);font-size: 0.7em;margin-right: 1em;
+                }
+                #My_projects, #My_contacts{
+                  width: 103%;position:relative;
+                  padding: 3em;left: -0.6em;
+                }
+                #About_me{
+                  width: 103%;padding: 3em;left: -0.5em;position: relative;
+                  font-weight: bold;
+                }
+                #About_me p{
+                  font-size: 1.3em;width: 70%;line-height: 1.7em;
+                  letter-spacing: 0.14em;word-spacing: 0.3em;
+                  border: 2px solid rgb(0,0,100);
+                  border-radius: 5px 50px 1px 5px;padding: 2em;
+                  background-color: rgb(0,0,100);color: rgb(255,105,0);
+                  outline: 2px solid rgb(0,0,100);
+                  outline-offset: 0.5em;
+                }
+                #About_me h5, #My_projects span, #My_projects div b{
+                    font-size: 1.8em;
+                }
+                #About_me section{
+                    display: flex;flex-wrap: wrap;
+                }
+                #About_me section div{
+                    margin-right: 5em;
+                }
+                #About_me b{
+                    height: 0.5em;width: 15rem;background-color: rgb(200,0,100);
+                    display: inline-block;
+                }
+                #About_me span{
+                    display: inline-block;padding: 0em 0.4em;
+                }
+                #My_projects div{
+                    border-bottom: 2px solid rgb(220,220,220);
+                    padding: 1.4em 0em;width: 40rem;
+                }
+                #My_projects i{
+                    font-size: 1.4em;float: right;margin-right: 0.3em;
+                }
+                #My_projects b{
+                    margin-right: 8em;letter-spacing: 0.4em;
+                }
+                #My_contacts section{
+                  display: flex;flex-wrap: wrap;font-weight: bold;
+                }
+                #My_contacts h5{
+                    border-bottom: 2px solid rgb(0,0,100);margin-bottom: -0.3em;
+                    padding-bottom: 0.6em;font-size: 2em;letter-spacing: 0.4em;
+                }
+                #My_contacts div{
+                  font-size: 1.5em;letter-spacing: 0.3em;width: 30em;
+                  margin-right: 2em;padding: 2em 0em;
+                }
+                #My_contacts span{
+                  margin-left: 3em;font-size:0.9em;
+                  font-family:Georgia, 'Times New Roman', Times, serif;
+                }
+                  @media screen and (max-width: 720px){
+                  html{
+                    width: 70%;border: 1px solid khaki;
+                    margin: 0px;padding: 0px;
+                  }  
+                  body{
+                    width: 95%;padding: 0px;margin: 0px;
+                    border: 1px solid red;
+                  }
+                  #introduction{
+                    padding: 0.7em 0.5em;width:96%;
+                    margin: 0px;left: 0%;border: 1px solid yellow;
+                  }
+                  #introduction h4{
+                    font-size: 0.7em;width: 100%;
+                  }
+                  #introduction p{
+                    font-size: 0.5em;width: 95%;
+                  }
+                  #introduction a{
+                    font-size: 0.8em;display: block;
+                  }
+                  #introduction a i{
+                    font-size: 0.5em;
+                  }
+                  #About_me{
+                    padding: 0.7em;position: relative;
+                    font-size: 0.8em;width: 96%;
+                    margin: 0px;left: 0%;
+                  }
+                  #About_me p{
+                    font-size: 0.9em;width: 100%;border:1px solid green;
+                    padding-left: 0.5em;padding-right: 0.2em;
+                  }
+                  #About_me section{
+                    width:100%;border: 1px solid blueviolet;display: block;
+                  }
+                  #About_me section div{
+                    font-size: 0.85em;width: 100%;border: 1px solid blueviolet;
+                  }
+                  #About_me div b{
+                    width: 75%;background-color: white;
+                  }
+                  #My_projects{
+                    padding: 0.7em 0.7em 0.7em 0.9em;
+                    position: relative;
+                    width:98%;
+                    margin: 0px;left: 0%;
+                  }
+                  #My_projects div{
+                    width: 100%;border: 1px solid purple;
+                  }
+                  #My_projects div span{
+                    font-size: 0.6em;
+                  }
+                  #My_projects div b{
+                    margin-right: 2rem;font-size: 0.6em;
+                  }
+                  #My_projects div i{
+                    font-size: 0.6em;
+                  }
+                  #My_contacts{
+                    padding: 0.7em 0.7em 0.7em 0.9em;
+                    position: relative;
+                    width: 98%;border: 1px solid khaki;
+                    margin: 0px;left: 0%;
+                  }
+                  #My_contacts h5{
+                    font-size: 1rem;width: 95%;
+                  }
+                  #My_contacts section div{
+                    font-size: 0.55rem;width: 100%;
+                  }
+                  #My_contacts b{
+                    display: block;margin: 1rem 0rem;
+                  }
+                  #My_contacts section div span{
+                    margin: 0rem;font-size: 1em;
+                  }
+                }   
+            </style>
+    </head>
+    <body>
+            <div id="introduction">
+                <h4>FULLSTACK WEB DEVELOPER & JAVA SOFTWARE ENGINEER</h4>
+                <p>I am full stack web developer , java software engineer &
+                    UI/UX designer intent on building beautiful applications with
+                  excellent user experience  
+                </p>
+                <a href="#About_me">
+                  <i class="fas fa-hand-point-right"></i>About Me
+                </a>
+                <a href="#My_projects">
+                  <i class="fas fa-hand-point-right"></i>My Projects
+                </a>
+                <a href="#My_contacts">
+                  <i class="fas fa-hand-point-right"></i>Contacts
+                </a>  
+            </div>
+            <div id="About_me" class="orange_background">
+              <p>
+                Hello, I am Abdillah Rajab excellent software engineer 
+                whose curious to learn more about new technologies and creative 
+                coding. Below are my skills that I have in this field of study.
+              </p>
+              <section>
+                <div>  
+                  <h5>FONT-END</h5>
+                  <pre>HTML5</pre>
+                  <b></b><span>99%</span>
+                  <pre>CSS</pre>
+                  <b></b><span>99%</span>
+                  <pre>Javascript</pre>
+                  <b></b><span>99%</span>
+                </div>
+                <div>  
+                  <h5>BACK-END</h5>
+                  <pre>PHP</pre>
+                  <b></b><span>99%</span>
+                  <pre>MySQL</pre>
+                  <b></b><span>99%</span>              
+                  <pre>JSP</pre>
+                  <b></b><span>99%</span>
+                  <pre>JAVA</pre>
+                  <b></b><span>99%</span>              
+                  <pre>SERVERLERT</pre>
+                  <b></b><span>99%</span>
+                </div>
+                <div>  
+                  <h5>OTHER SKILLS</h5>
+                  <pre>Syatem analysis</pre>
+                  <b></b><span>99%</span>
+                  <pre>UI/UX Design</pre>
+                  <b></b><span>99%</span>
+                </div> 
+              </section>          
+            </div>
+            <div id="My_projects">
+                <div>
+                    <b>RECENT PROJECTS</b><span>Roles</span>
+                </div>
+                <div>
+                    <b>Abdoul</b> <i>System Designer</i>
+                </div>
+                <div>
+                    <b>KIUT</b> <i>Fullstalck developer</i>
+                </div>
+            </div>
+            <div id="My_contacts" class="orange_background">
+                <h5>CONTACT</h5>
+                <section>
+                  <div>
+                    <b>EMAIL</b><span>sabdillah855@gmail.com</span>
+                  </div>
+                  <div>
+                    <b>PHONE</b><span>+255 689 500 692</span>
+                  </div>
+                  <div>
+                    <b>SOCIAL NETWORKS</b>
+                  </div>
+                </section>
+            </div>
+    </body>
+</html>
